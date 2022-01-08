@@ -1,0 +1,92 @@
+{
+  "aboutItems": [
+    {
+      "title": "International Baccalaureate",
+      "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
+      "image": "../src/assets/img/ib.png"
+    },
+    {
+      "title": "B.Sc. Computer Science",
+      "desc": "Aspiring computer scientist studying in Mexico at Monterrey Institute of Technology.",
+      "image": "../src/assets/img/tec.png"
+    },
+    {
+      "title": "PADI Open Water Diver",
+      "desc": "Obtained the basic level of diving certificate issued by PADI. Meets ISO 24801-2: Autonomous diver standard.",
+      "image": "../src/assets/img/padi.png"
+    }
+  ],
+  "aptitudes": [
+    {
+      "text": "Open-minded",
+      "icon": "fas fa-brain",
+      "color": "primary"
+    },
+    {
+      "text": "Lifelong learning",
+      "icon": "fas fa-graduation-cap",
+      "color": "primary"
+    },
+    {
+      "text": "Leadership",
+      "icon": "fas fa-users",
+      "color": "primary"
+    }
+  ],
+  "hobbies": [
+    {
+      "text": "Basketball",
+      "icon": "fas fa-basketball-ball",
+      "color": "primary"
+    },
+    {
+      "text": "Football (soccer)",
+      "icon": "far fa-futbol",
+      "color": "primary"
+    },
+    {
+      "text": "Traveling",
+      "icon": "fas fa-plane",
+      "color": "primary"
+    },
+    {
+      "text": "Scuba diving",
+      "icon": "fas fa-fish",
+      "color": "primary"
+    },
+    {
+      "text": "Analysing movies/tv",
+      "icon": "fas fa-tv",
+      "color": "primary"
+    },
+    {
+      "text": "Playing Nintendo",
+      "icon": "fas fa-gamepad",
+      "color": "primary"
+    }
+  ],
+  "skills": [
+    { "icon": "fab fa-html5", "text": "HTML5", "color": "primary" },
+    {
+      "icon": "fab fa-js-square",
+      "text": "JavaScript",
+      "color": "primary"
+    },
+    { "icon": "fab fa-css3-alt", "text": "CSS3", "color": "primary" },
+    { "icon": "fab fa-react", "text": "React", "color": "primary" },
+    { "icon": "fab fa-python", "text": "Python", "color": "primary" }
+  ],
+  "contact": [
+    { "social": "Instagram", "link": "https://instagram.com/dh02nam", "icon": "fab fa-instagram" },
+    {
+      "social": "LinkedIn",
+      "link": "https://www.linkedin.com/in/do-hyun-nam-4779051a9/",
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "social": "Github",
+      "link": "https://www.linkedin.com/in/do-hyun-nam-4779051a9/",
+      "icon": "fab fa-github"
+    }
+  ]
+}

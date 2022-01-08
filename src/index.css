@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .root-container {
+    @apply relative container px-2 md:px-0 mx-auto w-screen min-h-screen max-h-min flex flex-col 
+    justify-start items-center pb-8;
+  }
+
+  .active-link {
+    @apply text-gray-300 text-lg border-b-2 border-b-gray-300 transition-all ease-in-out duration-200;
+  }
+
+  .project-card {
+    @apply flex flex-col items-start justify-start w-full h-min m-4 rounded-xl shadow-2xl;
+  }
+
+  .text-box {
+    @apply flex flex-col items-start justify-start p-2 w-full h-min;
+  }
+
+  .social-icons {
+    @apply h-14 w-14 p-2 m-6 rounded-2xl white-glassmorphism text-white 
+    hover:bg-slate-300 hover:text-gray-900 hover:rounded-full flex flex-row justify-center items-center
+    transition-all duration-100 text-2xl;
+  }
+
+  .tech-icons {
+    @apply relative h-12 w-12 p-2 m-2 rounded-full blue-glassmorphism text-white flex flex-row justify-center 
+    items-center z-10;
+  }
+
+  .tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max md:-left-2 top-12 md:bottom-auto rounded-md shadow-md 
+    text-white bg-gray-900 text-xs font-bold transition-all duration-100 
+    scale-0 origin-left z-50;
+  }
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -60px; /* gutter size offset */
+  width: 90%;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(
+      at 4% 36%,
+      hsla(0, 0%, 100%, 1) 0,
+      transparent 53%
+    ),
+    radial-gradient(at 100% 60%, rgb(50, 50, 50) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
