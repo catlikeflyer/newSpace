@@ -38,6 +38,11 @@
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-bar {
   background: linear-gradient(180deg, #000000 0%, #f8f8f800 100%);
 }

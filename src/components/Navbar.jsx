@@ -30,7 +30,7 @@ export default function Navbar() {
           <NavItem pointsTo={item.toLowerCase()} text={item} />
         ))}
       </div>
-      <div className="flex flex-col md:hidden justify-end items-end">
+      <div className="flex flex-col md:hidden justify-end items-end absolute top-5 right-5">
         <HiMenuAlt4
           fontSize={28}
           className="text-white md:hidden cursor-pointer hover:text-3xl"

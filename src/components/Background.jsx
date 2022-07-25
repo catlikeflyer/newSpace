@@ -3,7 +3,7 @@ import React from "react";
 export default function Background({ source, children, idx }) {
   return (
     <div
-      className="min-h-full w-screen md:w-full -z-50"
+      className="min-h-full w-full md:w-full -z-50"
       style={{
         background: `url(${source})`,
         backgroundSize: "cover",

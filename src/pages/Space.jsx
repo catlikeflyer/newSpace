@@ -11,7 +11,7 @@ export default function Space() {
       }
       idx="home"
     >
-      <div className="root-container text-white items-start justify-center">
+      <div className="root-container text-white items-start justify-center p-4">
         <Typist>
           <h1 className="font-title text-7xl my-4 text-gradient">SPACE</h1>
           <p className="font-title text-gray-400 text-xl md:text-2xl">
