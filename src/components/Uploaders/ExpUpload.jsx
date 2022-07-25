@@ -5,7 +5,8 @@ import {
   Typography,
   makeStyles,
   TextField,
-} from "@material-ui/core";
+} from "@mui/material";
+
 import SendIcon from "@material-ui/icons/Send";
 import { useState } from "react";
 import { pFirestore, pStorage, timestamp } from "../../firebase/firebaseConfig";

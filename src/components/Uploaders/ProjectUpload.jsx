@@ -5,8 +5,9 @@ import {
   Typography,
   makeStyles,
   TextField,
-} from "@material-ui/core";
-import SendIcon from "@material-ui/icons/Send";
+} from "@mui/material";
+
+import { AiOutlineSend } from "react-icons/ai";
 import { useState } from "react";
 import { pFirestore, pStorage, timestamp } from "../../firebase/firebaseConfig";
 
@@ -171,7 +172,7 @@ export default function ProjectUpload() {
           type="submit"
           variant="contained"
           color="secondary"
-          startIcon={<SendIcon />}
+          startIcon={<AiOutlineSend />}
           className={classes}
           disabled={disabled}
         >
