@@ -57,8 +57,8 @@ export default function ProjectCard({ title, desc, imageUrl, link, tech }) {
         }}
       />
       <div className="text-box p-4">
-        <h3 className="text-3xl font-title mb-2">{title}</h3>
-        <p className="text-lg font-body">{desc}</p>
+        <h3 className="text-2xl font-title mb-2">{title}</h3>
+        <p className="font-body">{desc}</p>
       </div>
       <div className="flex justify-center items-start flex-row px-2">
         {tech &&

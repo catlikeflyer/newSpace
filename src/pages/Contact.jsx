@@ -7,6 +7,7 @@ import {
   AiFillInstagram,
   AiOutlineDownload,
 } from "react-icons/ai";
+import { GrDocumentUser } from "react-icons/gr";
 import { AptCard } from "./About";
 
 const contactData = [
@@ -22,7 +23,7 @@ const contactData = [
   },
   {
     social: "Github",
-    link: "https://www.github.com/dollis2002",
+    link: "https://www.github.com/catlikeflyer",
     icon: <AiFillGithub />,
   },
 ];
@@ -47,13 +48,13 @@ export default function Contact() {
         </div>
         <a
           style={{ textDecoration: "none" }}
-          href="https://firebasestorage.googleapis.com/v0/b/my-pf-4f7f9.appspot.com/o/resume_DoHyunNam.pdf?alt=media&token=7152f25f-63de-42a1-8840-bcf82e25c857"
+          href="https://firebasestorage.googleapis.com/v0/b/my-pf-4f7f9.appspot.com/o/resume_DoHyunNam_general.pdf?alt=media&token=93a808b8-847c-47f3-9dcc-7544a9738c96"
           download
         >
           <AptCard
-            text="Download Resume"
-            icon={<AiOutlineDownload fontSize={32} />}
-            props="hover:bg-slate-300 hover:text-gray-900 hover:rounded-full transition-all duration-200 ease-in-out"
+            text="Check my CV"
+            icon={<GrDocumentUser fontSize={32} color="white" />}
+            props="hover:bg-slate-300 hover:text-gray-900 hover:rounded-full transition-all duration-200 ease-in-out text-white"
           />
         </a>
       </MainLayout>

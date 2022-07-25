@@ -24,7 +24,7 @@ export default function Navbar() {
   const navItemsList = ["Home", "About", "Projects", "Experience", "Contact"];
 
   return (
-    <nav className="fixed w-full md:flex md:justify-end justify-between p-4 z-50">
+    <nav className="fixed w-full md:flex md:justify-end justify-between p-4 z-50 nav-bar">
       <div className="hidden md:flex flex-col md:flex-row md:items-end text-white mr-10">
         {navItemsList.map((item) => (
           <NavItem pointsTo={item.toLowerCase()} text={item} />

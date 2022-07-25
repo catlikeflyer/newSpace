@@ -19,11 +19,11 @@ export default function ExpCard({
         />
       </div>
       <div className="text-box p-4">
-        <h3 className="text-3xl font-title mb-2">{title}</h3>
+        <h3 className="text-2xl font-title mb-2">{title}</h3>
         <h4 className="text-lg font-title mb-2">
           {jobTitle} - {date}
         </h4>
-        <p className="text-lg font-body">{desc}</p>
+        <p className="font-body">{desc}</p>
         <div className="flex flex-row w-full rounded-b-xl p-4">
           {link && <DemoButton link={link} text="Active Site" />}
         </div>

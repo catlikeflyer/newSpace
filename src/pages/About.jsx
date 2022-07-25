@@ -26,7 +26,7 @@ const aptitudes = [
 export const AptCard = ({ text, icon, props }) => (
   <div className={`flex flex-row justify-center items-center m-4 p-2 white-glassmorphism ${props}`}>
     {icon}
-    <h1 className="font-title text-2xl mx-4">{text}</h1>
+    <h1 className="font-title mx-4">{text}</h1>
   </div>
 );
 
@@ -61,7 +61,7 @@ export default function About() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className="font-title text-4xl mb-2 mt-4">Aptitudes</h1>
+          <h1 className="font-title text-3xl mb-2 mt-4">Aptitudes</h1>
           <div className="flex md:flex-row flex-col justify-center items-center">
             {aptitudes.map((aptitude) => (
               <AptCard {...aptitude} />
