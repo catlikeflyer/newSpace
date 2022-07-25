@@ -1,5 +1,5 @@
 import React from "react";
-import Typist from "react-typist";
+//import Typist from "react-typist";
 import Background from "../components/Background";
 import Divider from "../components/Divider";
 
@@ -12,7 +12,6 @@ export default function Space() {
       idx="home"
     >
       <div className="root-container text-white items-start justify-center p-4">
-        <Typist>
           <h1 className="font-title text-7xl my-4 text-gradient">SPACE</h1>
           <p className="font-title text-gray-400 text-xl md:text-2xl">
             {"(Noun)"} def.
@@ -31,7 +30,6 @@ export default function Space() {
             <br />
             Fun Guy.
           </p>
-        </Typist>
       </div>
     </Background>
   );
