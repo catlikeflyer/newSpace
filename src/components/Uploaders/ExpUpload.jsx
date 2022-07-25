@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  Button,
-  Container,
-  Typography,
-  makeStyles,
-  TextField,
-} from "@mui/material";
+import { Button, Container, Typography, TextField } from "@mui/material";
 
-import SendIcon from "@material-ui/icons/Send";
+import { makeStyles } from "@mui/styles";
+
+import { AiOutlineSend } from "react-icons/ai";
 import { useState } from "react";
 import { pFirestore, pStorage, timestamp } from "../../firebase/firebaseConfig";
 
@@ -196,7 +192,7 @@ export default function ExpUpload() {
           type="submit"
           variant="contained"
           color="secondary"
-          startIcon={<SendIcon />}
+          startIcon={<AiOutlineSend />}
           className={classes}
           disabled={disabled}
         >

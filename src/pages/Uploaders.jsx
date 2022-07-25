@@ -1,10 +1,13 @@
 import React from "react";
-import Radio from "@material-ui/core/Radio";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import FormControl from "@material-ui/core/FormControl";
-import FormLabel from "@material-ui/core/FormLabel";
-import { Box, Container } from "@material-ui/core";
+import {
+  Box,
+  Container,
+  Radio,
+  RadioGroup,
+  FormControlLabel,
+  FormControl,
+  FormLabel,
+} from "@mui/material";
 import ProjectUpload from "../components/Uploaders/ProjectUpload";
 import ExpUpload from "../components/Uploaders/ExpUpload";
 
