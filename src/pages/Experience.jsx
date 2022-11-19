@@ -14,9 +14,10 @@ export default function Experience() {
       idx="experience"
     >
       <MainLayout title="Experience">
-        {docs && docs.map((exp)=> (
-          <ExpCard {...exp} />
-        ))}
+        {docs &&
+          docs
+            .filter((exp, index) => index <= 2)
+            .map((exp) => <ExpCard {...exp} />)}
       </MainLayout>
     </Background>
   );
