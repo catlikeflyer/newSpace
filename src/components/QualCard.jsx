@@ -1,5 +1,4 @@
 import React from "react";
-import Ib from "../assets/img/ib.png";
 
 export default function QualCard({ image, title, desc, date }) {
   return (

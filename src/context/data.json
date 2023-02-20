@@ -3,13 +3,13 @@
     {
       "title": "B.Sc. Computer Science",
       "desc": "Aspiring computer scientist studying in Mexico at Monterrey Institute of Technology.",
-      "image": "../src/assets/img/tec.png",
+      "image": "src/assets/img/tec.png",
       "date": "Aug 2020 - Jun 2024"
     },
     {
       "title": "International Baccalaureate",
       "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
-      "image": "../src/assets/img/ib.png",
+      "image": "src/assets/img/ib.png",
       "date": "Aug 2018 - May 2020"
     }
 
