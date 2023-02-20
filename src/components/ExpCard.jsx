@@ -11,11 +11,11 @@ export default function ExpCard({
 }) {
   return (
     <div className="rounded-xl white-glassmorphism flex md:flex-row flex-col m-4 shadow-2xl">
-      <div className="md:h-full md:w-3/5 md:rounded-l-xl w-full rounded-t-xl h-full">
+      <div className="md:w-3/5 md:rounded-l-xl w-full rounded-t-xl max-h-72">
         <img
           src={imageUrl}
           alt=""
-          className="md:rounded-l-xl md:rounded-tr-none rounded-t-xl"
+          className="md:rounded-l-xl md:rounded-tr-none rounded-t-xl object-cover w-full h-full"
         />
       </div>
       <div className="text-box p-4">
@@ -24,7 +24,7 @@ export default function ExpCard({
           {jobTitle} - {date}
         </h4>
         <p className="font-body">{desc}</p>
-        <div className="flex flex-row w-full rounded-b-xl p-4">
+        <div className="flex flex-row w-full rounded-b-xl py-4">
           {link && <DemoButton link={link} text="Active Site" />}
         </div>
       </div>

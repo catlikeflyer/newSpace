@@ -1,20 +1,18 @@
 {
   "aboutItems": [
     {
-      "title": "International Baccalaureate",
-      "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
-      "image": "../src/assets/img/ib.png"
-    },
-    {
       "title": "B.Sc. Computer Science",
       "desc": "Aspiring computer scientist studying in Mexico at Monterrey Institute of Technology.",
-      "image": "../src/assets/img/tec.png"
+      "image": "../src/assets/img/tec.png",
+      "date": "Aug 2020 - Jun 2024"
     },
     {
-      "title": "PADI Open Water Diver",
-      "desc": "Obtained the basic level of diving certificate issued by PADI. Meets ISO 24801-2: Autonomous diver standard.",
-      "image": "../src/assets/img/padi.png"
+      "title": "International Baccalaureate",
+      "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
+      "image": "../src/assets/img/ib.png",
+      "date": "Aug 2018 - May 2020"
     }
+
   ],
   "aptitudes": [
     {
@@ -29,6 +27,28 @@
     },
     {
       "text": "Leadership",
+      "icon": "fas fa-users",
+      "color": "primary"
+    }
+  ],
+  "interests": [
+    {
+      "text": "Fullstack Development",
+      "icon": "fas fa-brain",
+      "color": "primary"
+    },
+    {
+      "text": "Machine Learning",
+      "icon": "fas fa-graduation-cap",
+      "color": "primary"
+    },
+    {
+      "text": "Cloud Computing",
+      "icon": "fas fa-users",
+      "color": "primary"
+    },
+    {
+      "text": "Entrepreneurship",
       "icon": "fas fa-users",
       "color": "primary"
     }

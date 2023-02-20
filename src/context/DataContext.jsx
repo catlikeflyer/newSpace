@@ -7,7 +7,6 @@ export const DataContext = React.createContext();
 export const DataProvider = ({ children }) => {
   const data = Data;
 
-  
   const useFirestore = (collection) => {
     const [docs, setDocs] = useState([]);
 
@@ -34,11 +33,10 @@ export const DataProvider = ({ children }) => {
     <DataContext.Provider
       value={{
         data,
-        useFirestore
+        useFirestore,
       }}
     >
       {children}
     </DataContext.Provider>
   );
 };
-
