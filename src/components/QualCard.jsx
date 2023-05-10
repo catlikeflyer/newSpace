@@ -10,7 +10,7 @@ export default function QualCard({ image, title, desc, date }) {
         <p className="">{date}</p>
       </div>
       <div className="col-span-1 p-2 justify-center items-center">
-        <img src={imageUrl} alt="qual-logo" className="max-h-20 mx-auto" />
+        <img src={image} alt="qual-logo" className="max-h-20 mx-auto" />
       </div>
     </div>
   );
