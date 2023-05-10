@@ -26,9 +26,9 @@ export default function Space() {
           </p>
           <p className="font-title text-gray-400 text-2xl md:text-3xl">
             Computer Science Student. <br />
-            Entrepreneur.
+            Food Passionate.
             <br />
-            Fun Guy.
+            Music Enthusiast.
           </p>
       </div>
     </Background>
