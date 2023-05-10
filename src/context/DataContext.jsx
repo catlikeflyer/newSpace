@@ -13,7 +13,7 @@ export const DataProvider = ({ children }) => {
     useEffect(() => {
       const unsub = pFirestore
         .collection(collection)
-        .orderBy("created", "desc")
+        .orderBy("date", "desc")
         .onSnapshot((snapshot) => {
           let documents = [];
           snapshot.forEach((doc) => {
