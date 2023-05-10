@@ -3,13 +3,13 @@
     {
       "title": "B.Sc. Computer Science",
       "desc": "Aspiring computer scientist studying in Mexico at Monterrey Institute of Technology.",
-      "image": "src/assets/img/tec.png",
+      "image": "https://cdn.freebiesupply.com/logos/large/2x/tec-de-monterrey-4-logo-png-transparent.png",
       "date": "Aug 2020 - Jun 2024"
     },
     {
       "title": "International Baccalaureate",
       "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
-      "image": "src/assets/img/ib.png",
+      "image": "https://www.agakhanacademies.org/sites/default/files/IB%20World%20School%20Logo.png",
       "date": "Aug 2018 - May 2020"
     }
 
