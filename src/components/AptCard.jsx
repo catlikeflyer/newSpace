@@ -5,7 +5,7 @@ export const AptCard = ({ text, icon, props }) => (
     className={`flex flex-row justify-center items-center m-2 p-2 white-glassmorphism text-white ${props}`}
   >
     {icon}
-    <h1 className="font-title mx-4 text-sm">{text}</h1>
+    <h1 className="font-title mx-4 text-sm text-center">{text}</h1>
   </div>
 );
 
