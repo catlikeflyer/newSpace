@@ -51,6 +51,16 @@
       "text": "Entrepreneurship",
       "icon": "fas fa-users",
       "color": "primary"
+    },
+    {
+      "text": "Artificial Intelligence",
+      "icon": "fas fa-microchip-ai",
+      "color": "primary"
+    },
+    {
+      "text": "Computer Vision",
+      "icon": "fas fa-braille",
+      "color": "primary"
     }
   ],
   "hobbies": [
