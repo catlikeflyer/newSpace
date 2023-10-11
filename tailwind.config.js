@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         title: ["Orbitron", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        body: ["Play", "sans-serif"],
       },
     },
   },
