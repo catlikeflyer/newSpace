@@ -11,8 +11,12 @@ import {
   AiOutlineRobot,
   AiOutlineCloud,
   AiOutlineBarChart,
+  AiOutlineAudio,
+  AiOutlineGift,
 } from "react-icons/ai";
 import QualCard from "../components/QualCard";
+import Divider from "../components/Divider";
+import { AptCard } from "../components/AptCard";
 
 const aptitudes = [
   {
@@ -29,13 +33,13 @@ const aptitudes = [
   },
 ];
 
-const interests = [
+const skills = [
   {
     text: "Fullstack Development",
     icon: <AiOutlineFullscreen fontSize={40} />,
   },
   {
-    text: "Machine Learning",
+    text: "ML & AI",
     icon: <AiOutlineRobot fontSize={40} />,
   },
   {
@@ -43,8 +47,20 @@ const interests = [
     icon: <AiOutlineCloud fontSize={40} />,
   },
   {
-    text: "Econometrics",
+    text: "Data Analytics",
     icon: <AiOutlineBarChart fontSize={40} />,
+  },
+  {
+    text: "Leadership",
+    icon: <FaPeopleCarry fontSize={40} />,
+  },
+  {
+    text: "Event Planning",
+    icon: <AiOutlineGift fontSize={40} />,
+  },
+  {
+    text: "Public Speaking",
+    icon: <AiOutlineAudio fontSize={40} />,
   },
 ];
 
@@ -84,6 +100,13 @@ export default function About() {
           <div className="col-span-1">
             <img src={Photo} alt="my-picture" className="circular-image" />
           </div>
+        </div>
+        <h1 className="font-title text-4xl mt-10 text-gradient">Aptitudes</h1>
+        <Divider />
+        <div className="flex flex-row justify-center items-center flex-wrap">
+          {skills.map((skill) => (
+            <AptCard {...skill} />
+          ))}
         </div>
       </MainLayout>
     </Background>

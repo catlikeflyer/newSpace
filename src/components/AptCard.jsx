@@ -2,10 +2,10 @@ import React from "react";
 
 export const AptCard = ({ text, icon, props }) => (
   <div
-    className={`flex flex-row justify-center items-center m-2 p-2 white-glassmorphism text-white ${props}`}
+    className={`flex flex-col justify-center items-center m-2 p-2 white-glassmorphism text-white text-2xl ${props}`}
   >
     {icon}
-    <h1 className="font-title mx-4 text-sm text-center">{text}</h1>
+    <h1 className="font-title mx-4 text-lg text-center">{text}</h1>
   </div>
 );
 
