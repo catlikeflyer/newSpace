@@ -7,8 +7,8 @@ export default function QualCard({ title, school, date, desc }) {
         <div className="bg-white h-full w-1"></div>
       </div>
       <div className="col-span-11 flex flex-col p-2">
-        <h1 className="font-title text-2xl">{school}</h1>
-        <p className="text-2xl text-gray-400">{title}</p>
+        <h1 className="font-title text-xl">{school}</h1>
+        <p className="text-xl text-gray-400">{title}</p>
         <p className="">{date}</p>
       </div>
     </div>
