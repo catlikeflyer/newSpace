@@ -2,6 +2,7 @@ import React from "react";
 //import Typist from "react-typist";
 import Background from "../components/Background";
 import Divider from "../components/Divider";
+import { contactData } from "./Contact";
 
 export default function Space() {
   return (
@@ -30,6 +31,16 @@ export default function Space() {
             <br />
             Music Enthusiast.
           </p>
+          <Divider />
+          <div className="text-3xl text-white flex flex-row">
+            {contactData.map((item) => (
+              <a href={item.link} style={{ textDecoration: "none" }}>
+                <div className="hover:text-gray-400 pr-4">{item.icon}</div>
+              </a>
+            ))}
+
+          </div>
+
       </div>
     </Background>
   );

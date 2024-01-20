@@ -10,7 +10,7 @@ import {
 } from "react-icons/ai";
 import { AptCard } from "../components/AptCard";
 
-const contactData = [
+export const contactData = [
   {
     social: "Instagram",
     link: "https://instagram.com/dh02nam",
@@ -62,3 +62,4 @@ export default function Contact() {
     </Background>
   );
 }
+
