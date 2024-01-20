@@ -43,10 +43,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Orbitron", sans-serif;
 }
 
 p {
-  font-family: 'Play', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -97,4 +98,12 @@ p {
     radial-gradient(at 100% 60%, rgb(50, 50, 50) 0, transparent 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.circular-image {
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 20px;
 }

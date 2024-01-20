@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Background from "../components/Background";
 import MainLayout from "../components/MainLayout";
-import Photo from "../assets/dhnamPic.jpeg";
+import Photo from "../assets/imdo.jpg";
 import AptiCard from "../components/AptCard";
 import { DataContext } from "../context/DataContext";
 import { BiBrain } from "react-icons/bi";
@@ -14,6 +14,7 @@ import {
   AiOutlineBarChart,
 } from "react-icons/ai";
 import AboutCard from "../components/AboutCard";
+import QualCard from "../components/QualCard";
 
 const aptitudes = [
   {
@@ -60,9 +61,31 @@ export default function About() {
       idx="about"
     >
       <MainLayout title="About">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <AboutCard photo={Photo} edu={data.aboutItems} />
-          <AptiCard aptitudes={aptitudes} interests={interests} />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="col-span-2">
+            <h1 className="text-3xl">Hi there!</h1>
+            <br />
+            <p>
+              If a word describes me, it'll be curiosity. It drives people
+              everywhere, from the backyard all the way up to Mars (well, soon
+              enough). Playing with new technologies drives me to learn more
+              about them, and how can we use their power to change the world
+              step by step. Innovation is the key to the future, and I want to
+              be a part of it, in any way possible.
+              <br />
+              <br />
+              I love playing Pokemon and listening to music (check out my
+              Spotify!).
+              <br />
+            </p>
+            <h1 className="font-title text-3xl mb-2 mt-8">Education</h1>
+            {data.education.map((item) => (
+              <QualCard {...item} />
+            ))}
+          </div>
+          <div className="col-span-1">
+            <img src={Photo} alt="my-picture" className="circular-image" />
+          </div>
         </div>
       </MainLayout>
     </Background>

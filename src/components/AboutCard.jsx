@@ -13,8 +13,12 @@ export default function AboutCard({ photo, edu }) {
         />
         <p className="italic my-4 ml-4">
           If a word describes me, it'll be curiosity. It drives people
-          everywhere, from the park in the neighborhood all the way up to Mars
-          (well, soon enough).
+          everywhere, from the backyard all the way up to Mars (well, soon
+          enough). <br />
+          <br />
+          Innovation is the key to the future, and I want to be a part of it, in
+          any way possible.
+          <br />
         </p>
       </div>
       <div className="flex flex-col justify-center items-center">

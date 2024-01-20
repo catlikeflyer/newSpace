@@ -1,16 +1,25 @@
 {
-  "aboutItems": [
+  "education": [
     {
       "title": "B.Sc. Computer Science",
       "desc": "Aspiring computer scientist studying in Mexico at Monterrey Institute of Technology.",
       "image": "https://cdn-610f9e01c1ac181114e17676.closte.com/wp-content/uploads/2021/07/logo-tec-de-monterrey.png",
-      "date": "Aug 2020 - Jun 2024"
+      "date": "Aug 2020 - Jun 2024",
+      "school": "Monterrey Institute of Technology"
+    },
+    {
+      "title": "Study Abroad",
+      "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
+      "image": "https://www.agakhanacademies.org/sites/default/files/IB%20World%20School%20Logo.png",
+      "date": "Aug 2023 - Dec 2023",
+      "school": "University of Toronto"
     },
     {
       "title": "International Baccalaureate",
       "desc": "International Baccalaureate alumni, graduated from the bilingual diploma programme.",
       "image": "https://www.agakhanacademies.org/sites/default/files/IB%20World%20School%20Logo.png",
-      "date": "Aug 2018 - May 2020"
+      "date": "Aug 2018 - May 2020",
+      "school": "Prepa Tec Santa Fe"
     }
 
   ],
